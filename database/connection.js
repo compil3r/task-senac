@@ -1,10 +1,10 @@
 var knex = require('knex')({
     client: 'mysql',
     connection: {
-        host: 'localhost',
+        host: 'mysql.railway.internal',
         user: 'root',
-        password: 'password',
-        database: 'bd_vitor',
+        password: 'hKGYgCttXaWRlhXmNsjrsTkHrfQHUEsF',
+        database: 'railway',
         charset: 'utf8',
         port: 3306
      }
